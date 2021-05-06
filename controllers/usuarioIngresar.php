@@ -13,7 +13,7 @@ $resUser = mysqli_query($conexion, $queryUsers);
 $user = mysqli_fetch_assoc($resUser);
 if($user['id']){
 
-        header("Location:../index.html");
+        header("Location:../views/panel.php?id=" . $user['id']);
 
 }else{
 

@@ -63,7 +63,7 @@ button{
     display: flex;
     text-decoration: none;
     list-style: none;
-}
+}   
 .talles li{
     width:65px ;
     border-style: outset;
